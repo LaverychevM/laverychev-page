@@ -12,6 +12,9 @@ angular.
                 when('/topics/:topicId', {
                     template: '<topic-detail></topic-detail>'
                 }).
+                when('/plan', {
+                    template: '<plan></plan>'
+                }).
                 otherwise('/topics');
     }]).
     config(function ($mdIconProvider) {
