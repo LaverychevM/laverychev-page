@@ -6,4 +6,3 @@ angular.
 
         }
     });
-© 2020 GitHub, Inc.
