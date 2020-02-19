@@ -1,0 +1,32 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+skinparam usecase {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+left to right direction
+actor P as "Сотрудник"
+actor T as "Транзакции БД"
+actor G as "Руководитель"
+
+package APP as "Система контроля управления доступом"{
+usecase A as "Ведение кадрового учета"
+usecase B as "Ведение базы пропусков"
+usecase C as "Фиксирование проходов"
+usecase D as "Анализ информации"
+usecase E as "Формирование отчета"
+
+P --|> (A)
+(A) -- (B)
+(B) -- (C)
+T --|> (C)
+(C) -- (D)
+(D) -- (E)
+}
+G--|>E
+@enduml
