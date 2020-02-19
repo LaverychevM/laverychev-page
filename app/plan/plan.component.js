@@ -1,7 +1,7 @@
 angular.
     module('designApp').
     component('about', {
-        templateUrl: 'app/about/about.template.html',
+        templateUrl: 'app/plan/plan.template.html',
         controller: function AboutController() {
 
         }
