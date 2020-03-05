@@ -1,5 +1,5 @@
 {
-    "title": "UML Class",
+    "title": "UML Sequence",
     "items": [
         {
             "type": "image",
@@ -12,15 +12,6 @@
                 {
                     "text": "Файл",
                     "link": "https://github.com/LaverychevM/laverychevM.github.io/blob/master/laba3/3-2"
-                }
-                ]
-        },
-        {      
-            "type": "text",
-            "data": [
-                {
-                    "text": "Файл",
-                    "link": "https://github.com/LaverychevM/laverychev-page/blob/master/files/usecase2.txt"
                 }
                 ]
         },
