@@ -2,6 +2,19 @@
     "title": "UML Class",
     "items": [
         {
+            "type": "image",
+            "data":"http://www.plantuml.com/plantuml/png/JP0zhi9038JxFOL5_ov0WRZAFaY1H613bXu24WqT1HK_xvqWGaG48i8Lx1intfKGHHB9C_x6atxkxSpFqx6n0p-TKOUFKl2LAsw87rpoLHRSygL3DYTdXjRRNvidyEqWbBBccXz1pBx5Vrd82XXiuhaJlxW1x1cSYN7870r6pauyp2SbmLZ3qmP7-iqw8sO9G8qt4B1LmUIDevyUPTGbtaDvwQMoD9bE7KKrKVLFvwYb8Gsg1KRKKzLFiIDN-A8pmL0Iqbhi5M5UXFrBs4iZ7tjdi6xesSXMwL9GFEA3gcE8L_C1yJSbo-PpGZ-P3F7ltm00" 
+        },
+        {
+              
+            "type": "text",
+            "data": [
+                {
+                    "text": "Файл",
+                    "link": "https://github.com/LaverychevM/laverychevM.github.io/blob/master/laba3/3-2"
+                }
+                ]
+        },
               
             "type": "text",
             "data": [
