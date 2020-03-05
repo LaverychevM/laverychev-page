@@ -1,54 +1,194 @@
- <div class="container">
-
-        <div class="section__header">
-            <div class="section__title">Лабораторная работа 3</div>
-            <div class="section__inner">
-                <div class="section_subtitle">Приложение калькулятор</div>
-                <div class="calculator__info">
-                    <p>Этот калькулятор нужен чтобы калекулировац</p>        
-                </div>
-                <div class="calculator__group">
-                    <div class="calculator__uml">
-                        <img src="images/uml_sequence.png" alt="uml Case диаграмма">
-                    </div>
-                    <div class="calculator">
-                        <form class="calculator__form">
-                            <div class="calculator__row">
-                                <input class="calculator__display" id="display" type="text" disabled />
-                            </div>
-                            <div class="calculator__row">
-                                <button type="button" value="c" class="calculator__key calculator__clear"></button>
-                                <button type="button" value="←" class="calculator__key calculator__backspace"></button>
-                                <button type="button" value="^2" class="calculator__key calculator__power"></button>
-                                <button type="button" value="+" class="calculator__key calculator__button"></button>
-                            </div>
-                            <div class="calculator__row">
-                                <button type="button" value="9" class="calculator__key calculator__button"></button>
-                                <button type="button" value="8" class="calculator__key calculator__button"></button>
-                                <button type="button" value="7" class="calculator__key calculator__button"></button>
-                                <button type="button" value="-" class="calculator__key calculator__button"></button>
-                            </div>
-                            <div class="calculator__row">
-                                <button type="button" value="6" class="calculator__key calculator__button"></button>
-                                <button type="button" value="5" class="calculator__key calculator__button"></button>
-                                <button type="button" value="4" class="calculator__key calculator__button"></button>
-                                <button type="button" value="*" class="calculator__key calculator__button"></button>
-                            </div>
-                            <div class="calculator__row">
-                                <button type="button" value="3" class="calculator__key calculator__button"></button>
-                                <button type="button" value="2" class="calculator__key calculator__button"></button>
-                                <button type="button" value="1" class="calculator__key calculator__button"></button>
-                                <button type="button" value="/" class="calculator__key calculator__button"></button>
-                            </div>
-                            <div class="calculator__row">
-                                <button type="button" value="0" class="calculator__key calculator__button">0</button>
-                                <button type="button" value="." class="calculator__key calculator__button">.</button>
-                                <button type="button" value="=" class="calculator__key calculator__key--equal">=</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+{
+    "title": "UML Class",
+    "items": [
+        {
+              
+            "type": "text",
+            "data": [
+                {
+                    "text": "Файл",
+                    "link": "https://github.com/LaverychevM/laverychev-page/blob/master/files/usecase2.txt"
+                }
+                ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "1. Идентификатор прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Лабораторная №3"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "2. Название прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Реализация мини-приложения SPA, разработка UML Sequence"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "3. Контекст",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина "Проектирование информационных систем""
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "4. Участники (actors) и цели (goals)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data":"https://github.com/LaverychevM/laverychev-page/blob/master/img/2020-02-19_21-25-02.png?raw=true" 
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "5. Предусловия (pre-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "размечена личная страница и освоены основные средства веб-программирования (HTML, CSS, JS, AJAX, JQUERY, JSON)"
+                }],
+                [{                    "text": "выбран эпик из имеющегося набора задач теоретической части, дипломного проекта или другой области интересов"
+                }],
+                [{                    "text": "выбрана и сформулирована одна или несколько пользовательских историй (User Story) для реализации в виде SPA"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "6. Постусловия (post-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "пользовательские истории к SPA-приложению перечислены на личной странице или доступны по ссылке"
+                }],
+                [{                    "text": "приемочные тесты к пользовательским историям перечислены на личной странице или доступны по ссылке"
+                }],
+                [{                    "text": "SPA-приложение разработано и размещено непосредственно на личной странице или доступно по ссылке"
+                }],
+                [{                    "text": "SPA-приложение проверено путем демонстрации"
+                }],
+                [{                    "text": "диаграмма последовательности разработана и доступна через личную страницу"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "7. Основной поток (main flow)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data":"https://github.com/LaverychevM/laverychev-page/blob/master/img/2020-02-19_21-44-09.png?raw=true" 
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "8. Исключения (exceptions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Проблема в корректности имен репозиториев"
+                }],
+                [{                    "text": "Несогласованная по смыслу/содержанию/наполнению диаграмма классов"
+                }],
+                [{                    "text": "Неработающее приложение"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "9. Альтернативы (alternates)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Страница создана с использованием другой разметки"
+                }],
+                [{                    "text": "Страница размещена на другом ресурсе"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "10. Временные параметры",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Триггер (событие, стартующее прецедент): начало занятия по расписанию"
+                }],
+                [{                    "text": "Номинальная частота повторения прецедента: 1 раз в семестр * число студентов (60)"
+                }],
+                [{                    "text": "Продолжительность прецедента: 4 ак.часа = 3 нормочаса"
+                }]
+            ]
+        }
+    ]
+}
