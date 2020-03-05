@@ -1,1 +1,198 @@
-
+{
+    "title": "UML Component",
+    "items": [
+        {
+            "type": "image",
+            "data":"http://www.plantuml.com/plantuml/png/JP0zhi9038JxFOL5_ov0WRZAFaY1H613bXu24WqT1HK_xvqWGaG48i8Lx1intfKGHHB9C_x6atxkxSpFqx6n0p-TKOUFKl2LAsw87rpoLHRSygL3DYTdXjRRNvidyEqWbBBccXz1pBx5Vrd82XXiuhaJlxW1x1cSYN7870r6pauyp2SbmLZ3qmP7-iqw8sO9G8qt4B1LmUIDevyUPTGbtaDvwQMoD9bE7KKrKVLFvwYb8Gsg1KRKKzLFiIDN-A8pmL0Iqbhi5M5UXFrBs4iZ7tjdi6xesSXMwL9GFEA3gcE8L_C1yJSbo-PpGZ-P3F7ltm00" 
+        },
+        {
+              
+            "type": "text",
+            "data": [
+                {
+                    "text": "Файл",
+                    "link": "https://github.com/LaverychevM/laverychevM.github.io/blob/master/laba3/3-2"
+                }
+                ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "1. Идентификатор прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Лабораторная №3"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "2. Название прецедента",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Реализация мини-приложения SPA, разработка UML Sequence"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "3. Контекст",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина: Проектирование информационных систем"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "4. Участники (actors) и цели (goals)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data":"https://github.com/LaverychevM/laverychev-page/blob/master/img/2020-02-19_21-25-02.png?raw=true" 
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "5. Предусловия (pre-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "размечена личная страница и освоены основные средства веб-программирования (HTML, CSS, JS, AJAX, JQUERY, JSON)"
+                }],
+                [{                    "text": "выбран эпик из имеющегося набора задач теоретической части, дипломного проекта или другой области интересов"
+                }],
+                [{                    "text": "выбрана и сформулирована одна или несколько пользовательских историй (User Story) для реализации в виде SPA"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "6. Постусловия (post-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "пользовательские истории к SPA-приложению перечислены на личной странице или доступны по ссылке"
+                }],
+                [{                    "text": "приемочные тесты к пользовательским историям перечислены на личной странице или доступны по ссылке"
+                }],
+                [{                    "text": "SPA-приложение разработано и размещено непосредственно на личной странице или доступно по ссылке"
+                }],
+                [{                    "text": "SPA-приложение проверено путем демонстрации"
+                }],
+                [{                    "text": "диаграмма последовательности разработана и доступна через личную страницу"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "7. Основной поток (main flow)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data":"https://github.com/LaverychevM/laverychev-page/blob/master/img/laba3.png?raw=true" 
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "8. Исключения (exceptions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Проблема в корректности имен репозиториев"
+                }],
+                [{                    "text": "Несогласованная по смыслу/содержанию/наполнению диаграмма классов"
+                }],
+                [{                    "text": "Неработающее приложение"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "9. Альтернативы (alternates)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Страница создана с использованием другой разметки"
+                }],
+                [{                    "text": "Страница размещена на другом ресурсе"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "10. Временные параметры",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{                    "text": "Триггер (событие, стартующее прецедент): начало занятия по расписанию"
+                }],
+                [{                    "text": "Номинальная частота повторения прецедента: 1 раз в семестр * число студентов (60)"
+                }],
+                [{                    "text": "Продолжительность прецедента: 4 ак.часа = 3 нормочаса"
+                }]
+            ]
+        }
+    ]
+}
