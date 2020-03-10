@@ -46,5 +46,17 @@
         "title": "Семинар 1",
         "description": "Методология RUP, прецеденты и язык UML",
         "preview": "https://3.bp.blogspot.com/-2rH9R3ZuM78/WrY3dWj0FKI/AAAAAAAAOIA/NEunD9JwoP0lx4Ab41tuNsnckvvT4apXgCLcBGAs/s320/%25D1%2586%25D0%25B8%25D1%2584%25D1%2580%25D1%258B%2B%25D0%25BE%25D0%25B1%25D1%258A%25D0%25B5%25D0%25BC_DoV%2B%25287%2529.png"
+    },
+     {
+        "id": 9,
+        "title": "Семинар 2",
+        "description": "Управление разработкой ПО, методы Канбан и Скрам",
+        "preview": "https://2.bp.blogspot.com/-nOfUE8_QMbE/WrY3fI7YVBI/AAAAAAAAOIo/HqC1PRRadZYapry-q9AmgVJ3m_8H-_GxQCLcBGAs/s320/%25D1%2586%25D0%25B8%25D1%2584%25D1%2580%25D1%258B%2B%25D0%25BE%25D0%25B1%25D1%258A%25D0%25B5%25D0%25BC_DoV%2B%25288%2529.png"
+    },
+     {
+        "id": 10,
+        "title": "Семинар 3",
+        "description": "Прототипирование в разработке ПО",
+        "preview": "https://2.bp.blogspot.com/-D-4kRaq1HU4/WrY3iJIFDLI/AAAAAAAAOI8/y9b84zCba-oP9OuOMHDuVKk8GQR0uKVqQCLcBGAs/s320/%25D1%2586%25D0%25B8%25D1%2584%25D1%2580%25D1%258B%2B%25D0%25BE%25D0%25B1%25D1%258A%25D0%25B5%25D0%25BC_DoV%2B%25289%2529.png"
     }
 ]
